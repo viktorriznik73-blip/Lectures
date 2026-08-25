@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* Examle Sass ol and ul in div */
+div {
+  font-size: 18px;
+}
+div ol {
+  color: blue;
+  font-size: 14px;
+}
+div ul {
+  color: blue;
+  font-size: 16üx;
+}/*# sourceMappingURL=cs50w.css.map */

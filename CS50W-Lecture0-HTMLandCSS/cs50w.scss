@@ -1,0 +1,13 @@
+/* Examle Sass ol and ul in div */
+$color: blue;
+div {
+    font-size: 18px;
+ol {
+    color: $color;
+    font-size: 14px;
+}
+ul {
+    color: $color;
+    font-size: 16üx;
+}
+}

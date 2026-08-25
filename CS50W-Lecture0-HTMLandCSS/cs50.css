@@ -1,0 +1,37 @@
+/* Media example */
+@media (min-width: 600px) {
+    body {
+        background-color: #00ff00;
+    }
+}
+@media (max-width: 600px) {
+    body {
+        background-color: #ff0000;
+    }
+}
+/* Flexbox example */
+#container {
+    flex-wrap: wrap;
+    display: flex;
+}
+#container > div {
+    font-size: 20px;
+    width: 200px; 
+    background-color: #1900ff;
+    margin: 20px;
+}
+/* Grid example */
+#grid {
+    background-color: orange;
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 20px;
+ grid-row-gap: 10px;
+ grid-template-columns: 200px 200px auto;
+}
+.grid-item {
+    background-color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}

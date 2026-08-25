@@ -1,6 +1,5 @@
 "use strict";
-function logPoint(p) {
-    console.log(`${p.x}, ${p.y}`);
+function greet(person, date) {
+    document.write(`Hello ${person}, today is ${date.toDateString()}!`);
 }
-const point = { x: 15, y: 30 };
-logPoint(point);
+greet("Viktor", new Date());
